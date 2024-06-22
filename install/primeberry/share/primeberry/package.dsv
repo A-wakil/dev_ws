@@ -1,0 +1,8 @@
+source;share/primeberry/hook/cmake_prefix_path.ps1
+source;share/primeberry/hook/cmake_prefix_path.dsv
+source;share/primeberry/hook/cmake_prefix_path.sh
+source;share/primeberry/local_setup.bash
+source;share/primeberry/local_setup.dsv
+source;share/primeberry/local_setup.ps1
+source;share/primeberry/local_setup.sh
+source;share/primeberry/local_setup.zsh
