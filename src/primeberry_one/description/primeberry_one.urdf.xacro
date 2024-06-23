@@ -50,7 +50,7 @@
 	<!-- Chassis END --> 
 
   <!-- Right Wheel - Start --> 
-	<link name="right_wheel"> 
+	<link name="front_right_wheel"> 
 		
 		<collision> 
 		  <origin xyz="0 0 0" rpy="0 1.5708 1.5708" />
@@ -75,7 +75,7 @@
 	  </inertial> 
 
 	</link> 
-  <gazebo reference="right_wheel"> 
+  <gazebo reference="front_right_wheel"> 
     <mu1 value="2.0"/> 
     <mu2 value="2.0"/> 
     <kp  value="10000000.0" /> 
@@ -84,7 +84,7 @@
     <material>Gazebo/Blue</material> 
   </gazebo>
 
-	<link name="right_wheel_assembly">
+	<link name="front_right_wheel_assembly">
 		<collision> 
 		  <origin xyz="0 0 0" rpy="0 1.5708 1.5708" />
 		  <geometry> 
@@ -108,7 +108,7 @@
 	  </inertial>
 	</link>  
 
-  <gazebo reference="right_wheel_assembly"> 
+  <gazebo reference="front_right_wheel_assembly"> 
     <mu1 value="2.0"/> 
     <mu2 value="2.0"/> 
     <kp  value="10000000.0" /> 
@@ -117,18 +117,18 @@
     <material>Gazebo/White</material> 
   </gazebo>
 
-  <joint name="right_wheel_hinge" type="revolute"> 
+  <joint name="front_right_wheel_hinge" type="revolute"> 
     <parent link="chassis"/> 
-    <child link="right_wheel_assembly"/> 
+    <child link="front_right_wheel_assembly"/> 
     <origin xyz="0.4 0.125 0.3" rpy="0 0 0" />  
     <axis xyz="0 0 1" rpy="0 0 0" /> 
     <limit effort="100" velocity="1" lower="-1" upper="1"/> 
     <dynamics damping="0.0" friction="0.0"/> 
   </joint> 
 
-  <joint name="right_wheel_rotate" type="continuous"> 
-    <parent link="right_wheel_assembly"/> 
-    <child link="right_wheel"/> 
+  <joint name="front_right_wheel_rotate" type="continuous"> 
+    <parent link="front_right_wheel_assembly"/> 
+    <child link="front_right_wheel"/> 
     <origin xyz="0.0 0.025 0.0" rpy="0 0 0" />  
     <axis xyz="0 1 0" rpy="0 0 0" /> 
     <limit effort="100" velocity="50"/> 
@@ -136,9 +136,9 @@
   </joint>
 
 
-  <transmission name="trans_right_wheel_hing">
+  <transmission name="trans_front_right_wheel_hing">
     <type>transmission_interface/SimpleTransmission</type>
-    <joint name="right_wheel_hinge">
+    <joint name="front_right_wheel_hinge">
       <hardwareInterface>EffortJointInterface</hardwareInterface>
     </joint>
     <actuator name="motor1">
@@ -147,12 +147,12 @@
     </actuator>
   </transmission>
 
-  <transmission name="trans_right_wheel_rotate">
+  <transmission name="trans_front_right_wheel_rotate">
     <type>transmission_interface/SimpleTransmission</type>
-    <joint name="right_wheel_rotate">
+    <joint name="front_right_wheel_rotate">
       <hardwareInterface>EffortJointInterface</hardwareInterface>
     </joint>
-    <actuator name="motor_right_wheel_rotate">
+    <actuator name="motor_front_right_wheel_rotate">
       <hardwareInterface>EffortJointInterface</hardwareInterface>
       <mechanicalReduction>1</mechanicalReduction>
     </actuator>
@@ -161,7 +161,7 @@
   <!-- Right Wheel - End -->  
 
   <!-- Left Wheel - Start  -->
-	<link name="left_wheel"> 
+	<link name="front_left_wheel"> 
 		
 		<collision> 
 		  <origin xyz="0 0 0" rpy="0 1.5708 1.5708" />
@@ -186,7 +186,7 @@
 	  </inertial> 
 
 	</link> 
-  <gazebo reference="left_wheel"> 
+  <gazebo reference="front_left_wheel"> 
     <mu1 value="2.0"/> 
     <mu2 value="2.0"/> 
     <kp  value="10000000.0" /> 
@@ -195,7 +195,7 @@
     <material>Gazebo/Blue</material> 
   </gazebo>
 
-	<link name="left_wheel_assembly">
+	<link name="front_left_wheel_assembly">
 		<collision> 
 		  <origin xyz="0 0 0" rpy="0 1.5708 1.5708" />
 		  <geometry> 
@@ -219,7 +219,7 @@
 	  </inertial>
 	</link>  
 
-  <gazebo reference="left_wheel_assembly"> 
+  <gazebo reference="front_left_wheel_assembly"> 
     <mu1 value="2.0"/> 
     <mu2 value="2.0"/> 
     <kp  value="10000000.0" /> 
@@ -228,18 +228,18 @@
     <material>Gazebo/White</material> 
   </gazebo>
 
-  <joint name="left_wheel_hinge" type="revolute"> 
+  <joint name="front_left_wheel_hinge" type="revolute"> 
     <parent link="chassis"/> 
-    <child link="left_wheel_assembly"/> 
+    <child link="front_left_wheel_assembly"/> 
     <origin xyz="0.4 -0.125 0.3" rpy="0 0 0" />  
     <axis xyz="0 0 1" rpy="0 0 0" /> 
     <limit effort="100" velocity="1" lower="-1" upper="1"/> 
     <dynamics damping="0.0" friction="0.0"/> 
   </joint> 
 
-  <joint name="left_wheel_rotate" type="continuous"> 
-    <parent link="left_wheel_assembly"/> 
-    <child link="left_wheel"/> 
+  <joint name="front_left_wheel_rotate" type="continuous"> 
+    <parent link="front_left_wheel_assembly"/> 
+    <child link="front_left_wheel"/> 
     <origin xyz="0.0 -0.025 0.0" rpy="0 0 0" />  
     <axis xyz="0 1 0" rpy="0 0 0" /> 
     <limit effort="0" velocity="0"/> 
@@ -249,7 +249,7 @@
 
   <transmission name="tran2">
     <type>transmission_interface/SimpleTransmission</type>
-    <joint name="left_wheel_hinge">
+    <joint name="front_left_wheel_hinge">
       <hardwareInterface>EffortJointInterface</hardwareInterface>
     </joint>
     <actuator name="motor2">
@@ -258,12 +258,12 @@
     </actuator>
   </transmission>
 
-  <transmission name="trans_left_wheel_rotate">
+  <transmission name="trans_front_left_wheel_rotate">
     <type>transmission_interface/SimpleTransmission</type>
-    <joint name="left_wheel_rotate">
+    <joint name="front_left_wheel_rotate">
       <hardwareInterface>EffortJointInterface</hardwareInterface>
     </joint>
-    <actuator name="motor_left_wheel_rotate">
+    <actuator name="motor_front_left_wheel_rotate">
       <hardwareInterface>EffortJointInterface</hardwareInterface>
       <mechanicalReduction>1</mechanicalReduction>
     </actuator>
@@ -364,6 +364,7 @@
   </gazebo>
 
   <!-- Left Rear Wheel End -->
+
 
 
 	<gazebo>
