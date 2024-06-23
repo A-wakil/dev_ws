@@ -1,5 +1,6 @@
 /home/prime/dev_ws/install/primeberry_one/share/primeberry_one//launch/rsp.launch.py
 /home/prime/dev_ws/install/primeberry_one/share/primeberry_one//description/primeberry_one.urdf.xacro
+/home/prime/dev_ws/install/primeberry_one/share/primeberry_one//description/gazebo_control.xacro
 /home/prime/dev_ws/install/primeberry_one/share/ament_index/resource_index/package_run_dependencies/primeberry_one
 /home/prime/dev_ws/install/primeberry_one/share/ament_index/resource_index/parent_prefix_path/primeberry_one
 /home/prime/dev_ws/install/primeberry_one/share/primeberry_one/environment/ament_prefix_path.sh
