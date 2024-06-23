@@ -107,12 +107,12 @@
     <material>Gazebo/Black</material>
   </gazebo>
 
-    <joint name="front_left_wheel_joint" type="continuous">
+    <!-- <joint name="front_left_wheel_joint" type="continuous">
       <parent link="front_wheel_steering_link"/>
       <child link="front_left_wheel"/>
       <origin xyz="${flx} ${fly} ${flz}"/>
       <axis xyz="0 1 0"/>
-    </joint>
+    </joint> -->
 
 <link name="front_right_wheel">
       <visual>
@@ -138,11 +138,11 @@
     <material>Gazebo/Black</material>
   </gazebo>
 
-    <joint name="front_right_wheel_joint" type="continuous">
+    <!-- <joint name="front_right_wheel_joint" type="continuous">
       <parent link="front_wheel_steering_link"/>
       <child link="front_right_wheel"/>
       <origin xyz="${frx} ${fry} ${frz}"/>
       <axis xyz="0 1 0"/>
-    </joint>
+    </joint> -->
 
 </robot>
