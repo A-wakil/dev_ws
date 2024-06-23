@@ -1,0 +1,17 @@
+/home/prime/dev_ws/install/primeberry_one/share/primeberry_one//launch/rsp.launch.py
+/home/prime/dev_ws/install/primeberry_one/share/primeberry_one//description/primeberry_one.urdf.xacro
+/home/prime/dev_ws/install/primeberry_one/share/ament_index/resource_index/package_run_dependencies/primeberry_one
+/home/prime/dev_ws/install/primeberry_one/share/ament_index/resource_index/parent_prefix_path/primeberry_one
+/home/prime/dev_ws/install/primeberry_one/share/primeberry_one/environment/ament_prefix_path.sh
+/home/prime/dev_ws/install/primeberry_one/share/primeberry_one/environment/ament_prefix_path.dsv
+/home/prime/dev_ws/install/primeberry_one/share/primeberry_one/environment/path.sh
+/home/prime/dev_ws/install/primeberry_one/share/primeberry_one/environment/path.dsv
+/home/prime/dev_ws/install/primeberry_one/share/primeberry_one/local_setup.bash
+/home/prime/dev_ws/install/primeberry_one/share/primeberry_one/local_setup.sh
+/home/prime/dev_ws/install/primeberry_one/share/primeberry_one/local_setup.zsh
+/home/prime/dev_ws/install/primeberry_one/share/primeberry_one/local_setup.dsv
+/home/prime/dev_ws/install/primeberry_one/share/primeberry_one/package.dsv
+/home/prime/dev_ws/install/primeberry_one/share/ament_index/resource_index/packages/primeberry_one
+/home/prime/dev_ws/install/primeberry_one/share/primeberry_one/cmake/primeberry_oneConfig.cmake
+/home/prime/dev_ws/install/primeberry_one/share/primeberry_one/cmake/primeberry_oneConfig-version.cmake
+/home/prime/dev_ws/install/primeberry_one/share/primeberry_one/package.xml
