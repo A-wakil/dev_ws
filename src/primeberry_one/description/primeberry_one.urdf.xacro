@@ -1,5 +1,7 @@
 <?xml version="1.0"?> 
 <robot name="primeberry_one" xmlns:xacro="http://www.ros.org/wiki/xacro"> 
+
+  <xacro:include filename="gazebo_control.xacro"/>
 	
 	<!-- World link -->  
   <link name="world">
@@ -15,13 +17,13 @@
 
   <link name="chassis"> 
     <collision> 
-      <origin xyz="0 0 0.3" rpy="0 0 0"/> 
+      <!-- <origin xyz="0 0 0.3" rpy="0 0 0"/>  -->
       <geometry> 
             <box size="1 0.2 0.1"/> 
       </geometry> 
     </collision> 
     <visual> 
-      <origin xyz="0 0 0.3" rpy="0 0 0"/> 
+      <!-- <origin xyz="0 0 0.3" rpy="0 0 0"/>  -->
       <geometry> 
          <box size="1 0.2 0.1"/> 
       </geometry> 
@@ -29,7 +31,7 @@
     </visual> 
     <inertial> 
       <mass value="1"/> 
-      <origin xyz="0 0 0.3" rpy="0 0 0"/> 
+      <!-- <origin xyz="0 0 0.3" rpy="0 0 0"/>  -->
       <inertia ixx="0.4" ixy="0.1" ixz="0.1" iyy="0.4" iyz="0.1" izz="0.2"/> 
     </inertial> 
   </link>    
@@ -120,7 +122,7 @@
   <joint name="front_right_wheel_hinge" type="revolute"> 
     <parent link="chassis"/> 
     <child link="front_right_wheel_assembly"/> 
-    <origin xyz="0.4 0.125 0.3" rpy="0 0 0" />  
+    <origin xyz="0.4 0.125 0.0" rpy="0 0 0" />  
     <axis xyz="0 0 1" rpy="0 0 0" /> 
     <limit effort="100" velocity="1" lower="-1" upper="1"/> 
     <dynamics damping="0.0" friction="0.0"/> 
@@ -231,7 +233,7 @@
   <joint name="front_left_wheel_hinge" type="revolute"> 
     <parent link="chassis"/> 
     <child link="front_left_wheel_assembly"/> 
-    <origin xyz="0.4 -0.125 0.3" rpy="0 0 0" />  
+    <origin xyz="0.4 -0.125 0.0" rpy="0 0 0" />  
     <axis xyz="0 0 1" rpy="0 0 0" /> 
     <limit effort="100" velocity="1" lower="-1" upper="1"/> 
     <dynamics damping="0.0" friction="0.0"/> 
@@ -301,7 +303,7 @@
   <joint name="right_wheel_rear_rotate" type="continuous"> 
     <parent link="chassis"/> 
     <child link="right_wheel_rear"/> 
-    <origin xyz="-0.4 0.15 0.3" rpy="0 0 0" />  
+    <origin xyz="-0.4 0.15 0.0" rpy="0 0 0" />  
     <axis xyz="0 1 0" rpy="0 0 0" /> 
     <limit effort="0" velocity="0"/> 
     <dynamics damping="0.0" friction="0.0"/> 
@@ -348,7 +350,7 @@
   <joint name="left_wheel_rear_rotate" type="continuous"> 
     <parent link="chassis"/> 
     <child link="left_wheel_rear"/> 
-    <origin xyz="-0.4 -0.15 0.3" rpy="0 0 0" />  
+    <origin xyz="-0.4 -0.15 0.0" rpy="0 0 0" />  
     <axis xyz="0 1 0" rpy="0 0 0" /> 
     <limit effort="0" velocity="0"/> 
     <dynamics damping="0.0" friction="0.0"/> 
@@ -364,16 +366,6 @@
   </gazebo>
 
   <!-- Left Rear Wheel End -->
-
-
-
-	<gazebo>
-		<plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
-		  <robotNamespace>/ack</robotNamespace>
-			<legacyModeNS>true</legacyModeNS>
-		</plugin>
-	</gazebo>
-
 
   
 

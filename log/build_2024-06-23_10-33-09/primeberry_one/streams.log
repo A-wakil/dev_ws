@@ -1,0 +1,26 @@
+[0.115s] Invoking command in '/home/prime/dev_ws/build/primeberry_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/prime/dev_ws/build/primeberry_one -- -j8 -l8
+[0.306s] Invoked command in '/home/prime/dev_ws/build/primeberry_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/prime/dev_ws/build/primeberry_one -- -j8 -l8
+[0.501s] Invoking command in '/home/prime/dev_ws/build/primeberry_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/prime/dev_ws/build/primeberry_one
+[0.599s] -- Install configuration: ""
+[0.599s] -- Up-to-date: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one//launch
+[0.599s] -- Up-to-date: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one//launch/rsp.launch.py
+[0.600s] -- Up-to-date: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one//launch/launch_sim.launch.py
+[0.600s] -- Up-to-date: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one//description
+[0.609s] -- Installing: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one//description/primeberry_one.urdf.xacro
+[0.609s] -- Up-to-date: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one//description/gazebo_control.xacro
+[0.609s] -- Up-to-date: /home/prime/dev_ws/install/primeberry_one/share/ament_index/resource_index/package_run_dependencies/primeberry_one
+[0.615s] -- Up-to-date: /home/prime/dev_ws/install/primeberry_one/share/ament_index/resource_index/parent_prefix_path/primeberry_one
+[0.615s] -- Up-to-date: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one/environment/ament_prefix_path.sh
+[0.615s] -- Up-to-date: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one/environment/ament_prefix_path.dsv
+[0.628s] -- Up-to-date: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one/environment/path.sh
+[0.629s] -- Up-to-date: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one/environment/path.dsv
+[0.629s] -- Up-to-date: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one/local_setup.bash
+[0.630s] -- Up-to-date: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one/local_setup.sh
+[0.630s] -- Up-to-date: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one/local_setup.zsh
+[0.630s] -- Up-to-date: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one/local_setup.dsv
+[0.630s] -- Installing: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one/package.dsv
+[0.675s] -- Up-to-date: /home/prime/dev_ws/install/primeberry_one/share/ament_index/resource_index/packages/primeberry_one
+[0.676s] -- Up-to-date: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one/cmake/primeberry_oneConfig.cmake
+[0.676s] -- Up-to-date: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one/cmake/primeberry_oneConfig-version.cmake
+[0.676s] -- Up-to-date: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one/package.xml
+[0.760s] Invoked command in '/home/prime/dev_ws/build/primeberry_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/prime/dev_ws/build/primeberry_one

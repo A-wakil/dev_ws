@@ -2,6 +2,10 @@
 /home/prime/dev_ws/install/primeberry/share/primeberry//launch/launch_sim.launch.py
 /home/prime/dev_ws/install/primeberry/share/primeberry//description/primeberry.urdf.xacro
 /home/prime/dev_ws/install/primeberry/share/primeberry//description/materials.xacro
+/home/prime/dev_ws/install/primeberry/share/primeberry//description/wheels.xacro
+/home/prime/dev_ws/install/primeberry/share/primeberry//description/base_link.xacro
+/home/prime/dev_ws/install/primeberry/share/primeberry//description/gazebo_control.xacro
+/home/prime/dev_ws/install/primeberry/share/primeberry//description/steering_mechanism.xacro
 /home/prime/dev_ws/install/primeberry/share/ament_index/resource_index/package_run_dependencies/primeberry
 /home/prime/dev_ws/install/primeberry/share/ament_index/resource_index/parent_prefix_path/primeberry
 /home/prime/dev_ws/install/primeberry/share/primeberry/environment/ament_prefix_path.sh
