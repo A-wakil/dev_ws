@@ -1,4 +1,5 @@
 /home/prime/dev_ws/install/primeberry_one/share/primeberry_one//launch/rsp.launch.py
+/home/prime/dev_ws/install/primeberry_one/share/primeberry_one//launch/launch_sim.launch.py
 /home/prime/dev_ws/install/primeberry_one/share/primeberry_one//description/primeberry_one.urdf.xacro
 /home/prime/dev_ws/install/primeberry_one/share/primeberry_one//description/gazebo_control.xacro
 /home/prime/dev_ws/install/primeberry_one/share/ament_index/resource_index/package_run_dependencies/primeberry_one
