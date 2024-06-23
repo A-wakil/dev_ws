@@ -32,10 +32,12 @@
     </gazebo>
 
     <!-- Joint connecting the sphere to the base link -->
-    <joint name="sphere_to_base_joint" type="fixed">
+    <joint name="sphere_to_base_joint" type="revolute">
       <parent link="base_link"/>
       <child link="steering_sphere"/>
       <origin xyz="0.225 0 0"/>
+      <axis xyz="0 1 0"/>
+      <limit lower="-0.75" upper="0.75" effort="1.0" velocity="1.0"/>
     </joint>
 
     <!-- Joint connecting the sphere to the steering mechanism -->
@@ -43,7 +45,7 @@
       <parent link="steering_sphere"/>
       <child link="front_wheel_steering_link"/>
       <origin xyz="0.075 0 0"/> <!-- Position the sphere below the steering mechanism -->
-      <axis xyz="0 0 1"/> <!-- Define the axis of rotation -->
+      <axis xyz="0 1 0"/> <!-- Define the axis of rotation -->
       <limit lower="-0.75" upper="0.75" effort="1.0" velocity="1.0"/> <!-- Define the limits, effort, and velocity -->
     </joint>
 
@@ -71,18 +73,32 @@
     </gazebo>
 
     <!-- Joints for the front wheels attached to the steering mechanism -->
-    <joint name="front_left_wheel_steering_joint" type="continuous">
+    <!-- <joint name="front_left_wheel_joint" type="continuous">
       <parent link="front_wheel_steering_link"/>
       <child link="front_left_wheel"/>
       <origin xyz="0 -0.125 0"/>
       <axis xyz="0 1 0"/>
+    </joint> -->
+     <joint name="front_left_wheel_steering_joint" type="revolute">
+      <parent link="front_wheel_steering_link"/>
+      <child link="front_left_wheel"/>
+      <origin xyz="0 -0.125 0"/>
+      <axis xyz="0 0 1"/>
+      <limit lower="-0.75" upper="0.75" effort="1.0" velocity="1.0"/>
     </joint>
 
-    <joint name="front_right_wheel_steering_joint" type="continuous">
+    <!-- <joint name="front_right_wheel_joint" type="continuous">
       <parent link="front_wheel_steering_link"/>
       <child link="front_right_wheel"/>
       <origin xyz="0 0.125 0"/>
       <axis xyz="0 1 0"/>
+    </joint> -->
+    <joint name="front_right_wheel_steering_joint" type="revolute">
+      <parent link="front_wheel_steering_link"/>
+      <child link="front_right_wheel"/>
+      <origin xyz="0 0.125 0"/>
+      <axis xyz="0 0 1"/>
+      <limit lower="-0.75" upper="0.75" effort="1.0" velocity="1.0"/>
     </joint>
 
 </robot>
