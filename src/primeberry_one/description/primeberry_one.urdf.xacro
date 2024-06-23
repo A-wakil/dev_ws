@@ -23,7 +23,6 @@
       </geometry> 
     </collision> 
     <visual> 
-      <!-- <origin xyz="0 0 0.3" rpy="0 0 0"/>  -->
       <geometry> 
          <box size="1 0.2 0.1"/> 
       </geometry> 
@@ -31,7 +30,6 @@
     </visual> 
     <inertial> 
       <mass value="1"/> 
-      <!-- <origin xyz="0 0 0.3" rpy="0 0 0"/>  -->
       <inertia ixx="0.4" ixy="0.1" ixz="0.1" iyy="0.4" iyz="0.1" izz="0.2"/> 
     </inertial> 
   </link>    
@@ -99,7 +97,7 @@
 		  <geometry> 
 			<cylinder length="0.001" radius="0.04"/> 
 		  </geometry> 
-		  <material name="white"/> 
+		  <material name="black"/> 
 		</visual> 		
 
 		<inertial> 
@@ -116,7 +114,7 @@
     <kp  value="10000000.0" /> 
     <kd  value="1.0" /> 
     <fdir1 value="0 1 0"/> 
-    <material>Gazebo/White</material> 
+    <material>Gazebo/Black</material> 
   </gazebo>
 
   <joint name="front_right_wheel_hinge" type="revolute"> 
@@ -194,7 +192,7 @@
     <kp  value="10000000.0" /> 
     <kd  value="1.0" /> 
     <fdir1 value="0 1 0"/> 
-    <material>Gazebo/Blue</material> 
+    <material>Gazebo/Black</material> 
   </gazebo>
 
 	<link name="front_left_wheel_assembly">
@@ -210,7 +208,7 @@
 		  <geometry> 
 			<cylinder length="0.001" radius="0.04"/> 
 		  </geometry> 
-		  <material name="white"/> 
+		  <material name="black"/> 
 		</visual> 		
 
 		<inertial> 
@@ -227,7 +225,7 @@
     <kp  value="10000000.0" /> 
     <kd  value="1.0" /> 
     <fdir1 value="0 1 0"/> 
-    <material>Gazebo/White</material> 
+    <material>Gazebo/Black</material> 
   </gazebo>
 
   <joint name="front_left_wheel_hinge" type="revolute"> 
@@ -315,7 +313,7 @@
     <kp  value="10000000.0" /> 
     <kd  value="1.0" /> 
     <fdir1 value="0 1 0"/> 
-    <material>Gazebo/Blue</material> 
+    <material>Gazebo/Black</material> 
   </gazebo>
 
   <!-- Right Rear Wheel End -->
@@ -366,6 +364,16 @@
   </gazebo>
 
   <!-- Left Rear Wheel End -->
+
+
+
+	<gazebo>
+		<plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+		  <robotNamespace>/ack</robotNamespace>
+			<legacyModeNS>true</legacyModeNS>
+		</plugin>
+	</gazebo>
+
 
   
 
