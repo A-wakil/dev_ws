@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:property name="base_size" value="0.4 0.2 0.1"/>
+    <xacro:property name="base_mass" value="1.0"/>
+    <xacro:property name="base_inertia" value="0.01 0.0 0.0 0.01 0.0 0.01"/>
+
+    <link name="base_link">
+      <visual>
+        <geometry>
+          <box size="${base_size}"/> <!-- Dimensions of the base -->
+        </geometry>
+        <material name="gray"/>
+      </visual>
+      <collision>
+        <geometry>
+          <box size="${base_size}"/>
+        </geometry>
+      </collision>
+      <inertial>
+        <mass value="${base_mass}"/>
+        <inertia ixx="${base_inertia.split(' ')[0]}" ixy="${base_inertia.split(' ')[1]}" ixz="${base_inertia.split(' ')[2]}" 
+                iyy="${base_inertia.split(' ')[3]}" iyz="${base_inertia.split(' ')[4]}" izz="${base_inertia.split(' ')[5]}"/>
+      </inertial>
+    </link>
+      <gazebo reference="base_link">
+    <material>Gazebo/Gray</material>
+  </gazebo>
+</robot>
