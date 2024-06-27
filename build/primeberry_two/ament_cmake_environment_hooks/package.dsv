@@ -1,0 +1,4 @@
+source;share/primeberry_two/local_setup.bash
+source;share/primeberry_two/local_setup.dsv
+source;share/primeberry_two/local_setup.sh
+source;share/primeberry_two/local_setup.zsh

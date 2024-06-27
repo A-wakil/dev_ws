@@ -1,0 +1,9 @@
+/home/prime/dev_ws/build/primeberry_two/CMakeFiles/uninstall.dir
+/home/prime/dev_ws/build/primeberry_two/CMakeFiles/primeberry_two_uninstall.dir
+/home/prime/dev_ws/build/primeberry_two/CMakeFiles/test.dir
+/home/prime/dev_ws/build/primeberry_two/CMakeFiles/edit_cache.dir
+/home/prime/dev_ws/build/primeberry_two/CMakeFiles/rebuild_cache.dir
+/home/prime/dev_ws/build/primeberry_two/CMakeFiles/list_install_components.dir
+/home/prime/dev_ws/build/primeberry_two/CMakeFiles/install.dir
+/home/prime/dev_ws/build/primeberry_two/CMakeFiles/install/local.dir
+/home/prime/dev_ws/build/primeberry_two/CMakeFiles/install/strip.dir

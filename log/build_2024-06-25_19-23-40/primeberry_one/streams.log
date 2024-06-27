@@ -1,0 +1,69 @@
+[0.140s] Invoking command in '/home/prime/dev_ws/build/primeberry_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/prime/dev_ws/src/primeberry_one -DCMAKE_INSTALL_PREFIX=/home/prime/dev_ws/install/primeberry_one
+[0.539s] -- The C compiler identification is GNU 11.4.0
+[0.922s] -- The CXX compiler identification is GNU 11.4.0
+[0.942s] -- Detecting C compiler ABI info
+[1.332s] -- Detecting C compiler ABI info - done
+[1.356s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.368s] -- Detecting C compile features
+[1.369s] -- Detecting C compile features - done
+[1.392s] -- Detecting CXX compiler ABI info
+[1.798s] -- Detecting CXX compiler ABI info - done
+[1.832s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.833s] -- Detecting CXX compile features
+[1.846s] -- Detecting CXX compile features - done
+[1.853s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.392s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.668s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[2.758s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.772s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.796s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.825s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.894s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.232s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.234s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.235s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.362s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.377s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.896s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.953s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.167s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.206s] -- Looking for pthread.h
+[4.589s] -- Looking for pthread.h - found
+[4.589s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.028s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.032s] -- Found Threads: TRUE  
+[6.433s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.650s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.653s] -- Added test 'lint_cmake' to check CMake code style
+[6.653s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.668s] -- Added test 'xmllint' to check XML markup files
+[6.669s] -- Configuring done
+[6.678s] -- Generating done
+[6.685s] -- Build files have been written to: /home/prime/dev_ws/build/primeberry_one
+[6.788s] Invoked command in '/home/prime/dev_ws/build/primeberry_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/prime/dev_ws/src/primeberry_one -DCMAKE_INSTALL_PREFIX=/home/prime/dev_ws/install/primeberry_one
+[6.792s] Invoking command in '/home/prime/dev_ws/build/primeberry_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/prime/dev_ws/build/primeberry_one -- -j8 -l8
+[7.125s] Invoked command in '/home/prime/dev_ws/build/primeberry_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/prime/dev_ws/build/primeberry_one -- -j8 -l8
+[7.302s] Invoking command in '/home/prime/dev_ws/build/primeberry_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/prime/dev_ws/build/primeberry_one
+[7.339s] -- Install configuration: ""
+[7.342s] -- Installing: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one//launch
+[7.345s] -- Installing: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one//launch/rsp.launch.py
+[7.345s] -- Installing: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one//launch/launch_sim.launch.py
+[7.346s] -- Installing: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one//description
+[7.368s] -- Installing: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one//description/primeberry_one.urdf.xacro
+[7.368s] -- Installing: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one//description/gazebo_control.xacro
+[7.432s] -- Installing: /home/prime/dev_ws/install/primeberry_one/share/ament_index/resource_index/package_run_dependencies/primeberry_one
+[7.433s] -- Installing: /home/prime/dev_ws/install/primeberry_one/share/ament_index/resource_index/parent_prefix_path/primeberry_one
+[7.433s] -- Installing: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one/environment/ament_prefix_path.sh
+[7.433s] -- Installing: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one/environment/ament_prefix_path.dsv
+[7.433s] -- Installing: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one/environment/path.sh
+[7.434s] -- Installing: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one/environment/path.dsv
+[7.434s] -- Installing: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one/local_setup.bash
+[7.469s] -- Installing: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one/local_setup.sh
+[7.469s] -- Installing: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one/local_setup.zsh
+[7.502s] -- Installing: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one/local_setup.dsv
+[7.517s] -- Installing: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one/package.dsv
+[7.518s] -- Installing: /home/prime/dev_ws/install/primeberry_one/share/ament_index/resource_index/packages/primeberry_one
+[7.520s] -- Installing: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one/cmake/primeberry_oneConfig.cmake
+[7.520s] -- Installing: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one/cmake/primeberry_oneConfig-version.cmake
+[7.521s] -- Installing: /home/prime/dev_ws/install/primeberry_one/share/primeberry_one/package.xml
+[7.741s] Invoked command in '/home/prime/dev_ws/build/primeberry_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/prime/dev_ws/build/primeberry_one
