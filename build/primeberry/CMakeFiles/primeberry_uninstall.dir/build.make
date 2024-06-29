@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/prime/dev_ws/src/primeberry
+CMAKE_SOURCE_DIR = /home/apptronik/dev_ws/src/primeberry
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/prime/dev_ws/build/primeberry
+CMAKE_BINARY_DIR = /home/apptronik/dev_ws/build/primeberry
 
 # Utility rule file for primeberry_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/primeberry_uninstall.dir/compiler_depend.make
 include CMakeFiles/primeberry_uninstall.dir/progress.make
 
 CMakeFiles/primeberry_uninstall:
-	/usr/bin/cmake -P /home/prime/dev_ws/build/primeberry/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/apptronik/dev_ws/build/primeberry/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 primeberry_uninstall: CMakeFiles/primeberry_uninstall
 primeberry_uninstall: CMakeFiles/primeberry_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/primeberry_uninstall.dir/clean:
 .PHONY : CMakeFiles/primeberry_uninstall.dir/clean
 
 CMakeFiles/primeberry_uninstall.dir/depend:
-	cd /home/prime/dev_ws/build/primeberry && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/prime/dev_ws/src/primeberry /home/prime/dev_ws/src/primeberry /home/prime/dev_ws/build/primeberry /home/prime/dev_ws/build/primeberry /home/prime/dev_ws/build/primeberry/CMakeFiles/primeberry_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/apptronik/dev_ws/build/primeberry && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/apptronik/dev_ws/src/primeberry /home/apptronik/dev_ws/src/primeberry /home/apptronik/dev_ws/build/primeberry /home/apptronik/dev_ws/build/primeberry /home/apptronik/dev_ws/build/primeberry/CMakeFiles/primeberry_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/primeberry_uninstall.dir/depend
 

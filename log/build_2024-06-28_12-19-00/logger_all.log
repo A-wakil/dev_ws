@@ -1,0 +1,313 @@
+[0.238s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.238s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f838a2fdff0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f838a2fd5a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f838a2fd5a0>>, mixin_verb=('build',))
+[0.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.590s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.590s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.590s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.591s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.591s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.591s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/apptronik/dev_ws'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/primeberry) by extensions ['ignore', 'ignore_ament_install']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/primeberry) by extension 'ignore'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/primeberry) by extension 'ignore_ament_install'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(src/primeberry) by extensions ['colcon_pkg']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/primeberry) by extension 'colcon_pkg'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/primeberry) by extensions ['colcon_meta']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/primeberry) by extension 'colcon_meta'
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(src/primeberry) by extensions ['ros']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src/primeberry) by extension 'ros'
+[0.635s] DEBUG:colcon.colcon_core.package_identification:Package 'src/primeberry' with type 'ros.ament_cmake' and name 'primeberry'
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/primeberry_one) by extensions ['ignore', 'ignore_ament_install']
+[0.636s] Level 1:colcon.colcon_core.package_identification:_identify(src/primeberry_one) by extension 'ignore'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/primeberry_one) by extension 'ignore_ament_install'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/primeberry_one) by extensions ['colcon_pkg']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(src/primeberry_one) by extension 'colcon_pkg'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/primeberry_one) by extensions ['colcon_meta']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(src/primeberry_one) by extension 'colcon_meta'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/primeberry_one) by extensions ['ros']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(src/primeberry_one) by extension 'ros'
+[0.641s] DEBUG:colcon.colcon_core.package_identification:Package 'src/primeberry_one' with type 'ros.ament_cmake' and name 'primeberry_one'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/primeberry_two) by extensions ['ignore', 'ignore_ament_install']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/primeberry_two) by extension 'ignore'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src/primeberry_two) by extension 'ignore_ament_install'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/primeberry_two) by extensions ['colcon_pkg']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/primeberry_two) by extension 'colcon_pkg'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/primeberry_two) by extensions ['colcon_meta']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/primeberry_two) by extension 'colcon_meta'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/primeberry_two) by extensions ['ros']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/primeberry_two) by extension 'ros'
+[0.646s] DEBUG:colcon.colcon_core.package_identification:Package 'src/primeberry_two' with type 'ros.ament_cmake' and name 'primeberry_two'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/readings_and_processing) by extensions ['ignore', 'ignore_ament_install']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/readings_and_processing) by extension 'ignore'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/readings_and_processing) by extension 'ignore_ament_install'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/readings_and_processing) by extensions ['colcon_pkg']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/readings_and_processing) by extension 'colcon_pkg'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/readings_and_processing) by extensions ['colcon_meta']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/readings_and_processing) by extension 'colcon_meta'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/readings_and_processing) by extensions ['ros']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/readings_and_processing) by extension 'ros'
+[0.649s] DEBUG:colcon.colcon_core.package_identification:Package 'src/readings_and_processing' with type 'ros.ament_python' and name 'readings_and_processing'
+[0.650s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.650s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.650s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.693s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.693s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.697s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/apptronik/dev_ws/install
+[0.700s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 293 installed packages in /opt/ros/humble
+[0.725s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.810s] Level 5:colcon.colcon_core.verb:set package 'primeberry' build argument 'cmake_args' from command line to 'None'
+[0.810s] Level 5:colcon.colcon_core.verb:set package 'primeberry' build argument 'cmake_target' from command line to 'None'
+[0.811s] Level 5:colcon.colcon_core.verb:set package 'primeberry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.811s] Level 5:colcon.colcon_core.verb:set package 'primeberry' build argument 'cmake_clean_cache' from command line to 'False'
+[0.811s] Level 5:colcon.colcon_core.verb:set package 'primeberry' build argument 'cmake_clean_first' from command line to 'False'
+[0.811s] Level 5:colcon.colcon_core.verb:set package 'primeberry' build argument 'cmake_force_configure' from command line to 'False'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'primeberry' build argument 'ament_cmake_args' from command line to 'None'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'primeberry' build argument 'catkin_cmake_args' from command line to 'None'
+[0.812s] Level 5:colcon.colcon_core.verb:set package 'primeberry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.812s] DEBUG:colcon.colcon_core.verb:Building package 'primeberry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/apptronik/dev_ws/build/primeberry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/apptronik/dev_ws/install/primeberry', 'merge_install': False, 'path': '/home/apptronik/dev_ws/src/primeberry', 'symlink_install': False, 'test_result_base': None}
+[0.813s] Level 5:colcon.colcon_core.verb:set package 'primeberry_one' build argument 'cmake_args' from command line to 'None'
+[0.814s] Level 5:colcon.colcon_core.verb:set package 'primeberry_one' build argument 'cmake_target' from command line to 'None'
+[0.814s] Level 5:colcon.colcon_core.verb:set package 'primeberry_one' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.815s] Level 5:colcon.colcon_core.verb:set package 'primeberry_one' build argument 'cmake_clean_cache' from command line to 'False'
+[0.815s] Level 5:colcon.colcon_core.verb:set package 'primeberry_one' build argument 'cmake_clean_first' from command line to 'False'
+[0.815s] Level 5:colcon.colcon_core.verb:set package 'primeberry_one' build argument 'cmake_force_configure' from command line to 'False'
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'primeberry_one' build argument 'ament_cmake_args' from command line to 'None'
+[0.816s] Level 5:colcon.colcon_core.verb:set package 'primeberry_one' build argument 'catkin_cmake_args' from command line to 'None'
+[0.817s] Level 5:colcon.colcon_core.verb:set package 'primeberry_one' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.817s] DEBUG:colcon.colcon_core.verb:Building package 'primeberry_one' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/apptronik/dev_ws/build/primeberry_one', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/apptronik/dev_ws/install/primeberry_one', 'merge_install': False, 'path': '/home/apptronik/dev_ws/src/primeberry_one', 'symlink_install': False, 'test_result_base': None}
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'primeberry_two' build argument 'cmake_args' from command line to 'None'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'primeberry_two' build argument 'cmake_target' from command line to 'None'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'primeberry_two' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'primeberry_two' build argument 'cmake_clean_cache' from command line to 'False'
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'primeberry_two' build argument 'cmake_clean_first' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'primeberry_two' build argument 'cmake_force_configure' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'primeberry_two' build argument 'ament_cmake_args' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'primeberry_two' build argument 'catkin_cmake_args' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'primeberry_two' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.820s] DEBUG:colcon.colcon_core.verb:Building package 'primeberry_two' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/apptronik/dev_ws/build/primeberry_two', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/apptronik/dev_ws/install/primeberry_two', 'merge_install': False, 'path': '/home/apptronik/dev_ws/src/primeberry_two', 'symlink_install': False, 'test_result_base': None}
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'readings_and_processing' build argument 'cmake_args' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'readings_and_processing' build argument 'cmake_target' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'readings_and_processing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'readings_and_processing' build argument 'cmake_clean_cache' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'readings_and_processing' build argument 'cmake_clean_first' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'readings_and_processing' build argument 'cmake_force_configure' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'readings_and_processing' build argument 'ament_cmake_args' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'readings_and_processing' build argument 'catkin_cmake_args' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'readings_and_processing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.823s] DEBUG:colcon.colcon_core.verb:Building package 'readings_and_processing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/apptronik/dev_ws/build/readings_and_processing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/apptronik/dev_ws/install/readings_and_processing', 'merge_install': False, 'path': '/home/apptronik/dev_ws/src/readings_and_processing', 'symlink_install': False, 'test_result_base': None}
+[0.824s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.826s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.826s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/apptronik/dev_ws/src/primeberry' with build type 'ament_cmake'
+[0.827s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/apptronik/dev_ws/src/primeberry'
+[0.832s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.833s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.833s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.847s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/apptronik/dev_ws/src/primeberry_one' with build type 'ament_cmake'
+[0.852s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/apptronik/dev_ws/src/primeberry_one'
+[0.853s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.854s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apptronik/dev_ws/build/primeberry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apptronik/dev_ws/install/readings_and_processing:/opt/ros/humble /usr/bin/cmake --build /home/apptronik/dev_ws/build/primeberry -- -j2 -l2
+[0.945s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apptronik/dev_ws/build/primeberry_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apptronik/dev_ws/install/readings_and_processing:/opt/ros/humble /usr/bin/cmake --build /home/apptronik/dev_ws/build/primeberry_one -- -j2 -l2
+[1.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apptronik/dev_ws/build/primeberry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apptronik/dev_ws/install/readings_and_processing:/opt/ros/humble /usr/bin/cmake --build /home/apptronik/dev_ws/build/primeberry -- -j2 -l2
+[1.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apptronik/dev_ws/build/primeberry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apptronik/dev_ws/install/readings_and_processing:/opt/ros/humble /usr/bin/cmake --install /home/apptronik/dev_ws/build/primeberry
+[1.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apptronik/dev_ws/build/primeberry_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apptronik/dev_ws/install/readings_and_processing:/opt/ros/humble /usr/bin/cmake --build /home/apptronik/dev_ws/build/primeberry_one -- -j2 -l2
+[1.208s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(primeberry)
+[1.220s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apptronik/dev_ws/build/primeberry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apptronik/dev_ws/install/readings_and_processing:/opt/ros/humble /usr/bin/cmake --install /home/apptronik/dev_ws/build/primeberry
+[1.226s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry' for CMake module files
+[1.228s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry' for CMake config files
+[1.229s] Level 1:colcon.colcon_core.shell:create_environment_hook('primeberry', 'cmake_prefix_path')
+[1.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apptronik/dev_ws/install/primeberry/share/primeberry/hook/cmake_prefix_path.ps1'
+[1.236s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apptronik/dev_ws/install/primeberry/share/primeberry/hook/cmake_prefix_path.dsv'
+[1.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apptronik/dev_ws/install/primeberry/share/primeberry/hook/cmake_prefix_path.sh'
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry/bin'
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry/lib/pkgconfig/primeberry.pc'
+[1.242s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry/lib/python3.10/site-packages'
+[1.242s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry/bin'
+[1.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/apptronik/dev_ws/install/primeberry/share/primeberry/package.ps1'
+[1.244s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/apptronik/dev_ws/install/primeberry/share/primeberry/package.dsv'
+[1.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/apptronik/dev_ws/install/primeberry/share/primeberry/package.sh'
+[1.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/apptronik/dev_ws/install/primeberry/share/primeberry/package.bash'
+[1.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/apptronik/dev_ws/install/primeberry/share/primeberry/package.zsh'
+[1.251s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/apptronik/dev_ws/install/primeberry/share/colcon-core/packages/primeberry)
+[1.265s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apptronik/dev_ws/build/primeberry_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apptronik/dev_ws/install/readings_and_processing:/opt/ros/humble /usr/bin/cmake --install /home/apptronik/dev_ws/build/primeberry_one
+[1.300s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(primeberry_one)
+[1.301s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry_one' for CMake module files
+[1.302s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry_one' for CMake config files
+[1.302s] Level 1:colcon.colcon_core.shell:create_environment_hook('primeberry_one', 'cmake_prefix_path')
+[1.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/hook/cmake_prefix_path.ps1'
+[1.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apptronik/dev_ws/build/primeberry_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apptronik/dev_ws/install/readings_and_processing:/opt/ros/humble /usr/bin/cmake --install /home/apptronik/dev_ws/build/primeberry_one
+[1.311s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/hook/cmake_prefix_path.dsv'
+[1.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/hook/cmake_prefix_path.sh'
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry_one/bin'
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry_one/lib/pkgconfig/primeberry_one.pc'
+[1.316s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry_one/lib/python3.10/site-packages'
+[1.317s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry_one/bin'
+[1.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/package.ps1'
+[1.319s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/package.dsv'
+[1.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/package.sh'
+[1.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/package.bash'
+[1.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/package.zsh'
+[1.331s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/apptronik/dev_ws/install/primeberry_one/share/colcon-core/packages/primeberry_one)
+[1.335s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(primeberry)
+[1.336s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry' for CMake module files
+[1.336s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry' for CMake config files
+[1.337s] Level 1:colcon.colcon_core.shell:create_environment_hook('primeberry', 'cmake_prefix_path')
+[1.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apptronik/dev_ws/install/primeberry/share/primeberry/hook/cmake_prefix_path.ps1'
+[1.340s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apptronik/dev_ws/install/primeberry/share/primeberry/hook/cmake_prefix_path.dsv'
+[1.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apptronik/dev_ws/install/primeberry/share/primeberry/hook/cmake_prefix_path.sh'
+[1.345s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry/bin'
+[1.346s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry/lib/pkgconfig/primeberry.pc'
+[1.346s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry/lib/python3.10/site-packages'
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry/bin'
+[1.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/apptronik/dev_ws/install/primeberry/share/primeberry/package.ps1'
+[1.349s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/apptronik/dev_ws/install/primeberry/share/primeberry/package.dsv'
+[1.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/apptronik/dev_ws/install/primeberry/share/primeberry/package.sh'
+[1.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/apptronik/dev_ws/install/primeberry/share/primeberry/package.bash'
+[1.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/apptronik/dev_ws/install/primeberry/share/primeberry/package.zsh'
+[1.352s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/apptronik/dev_ws/install/primeberry/share/colcon-core/packages/primeberry)
+[1.357s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/apptronik/dev_ws/src/primeberry_two' with build type 'ament_cmake'
+[1.360s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/apptronik/dev_ws/src/primeberry_two'
+[1.361s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.361s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apptronik/dev_ws/build/primeberry_two': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apptronik/dev_ws/install/readings_and_processing:/opt/ros/humble /usr/bin/cmake --build /home/apptronik/dev_ws/build/primeberry_two -- -j2 -l2
+[1.436s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(primeberry_one)
+[1.437s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry_one' for CMake module files
+[1.445s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry_one' for CMake config files
+[1.446s] Level 1:colcon.colcon_core.shell:create_environment_hook('primeberry_one', 'cmake_prefix_path')
+[1.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/hook/cmake_prefix_path.ps1'
+[1.447s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/hook/cmake_prefix_path.dsv'
+[1.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/hook/cmake_prefix_path.sh'
+[1.450s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry_one/bin'
+[1.450s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry_one/lib/pkgconfig/primeberry_one.pc'
+[1.451s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry_one/lib/python3.10/site-packages'
+[1.452s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry_one/bin'
+[1.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/package.ps1'
+[1.456s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/package.dsv'
+[1.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/package.sh'
+[1.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/package.bash'
+[1.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/package.zsh'
+[1.465s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/apptronik/dev_ws/install/primeberry_one/share/colcon-core/packages/primeberry_one)
+[1.468s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/apptronik/dev_ws/src/readings_and_processing' with build type 'ament_python'
+[1.469s] Level 1:colcon.colcon_core.shell:create_environment_hook('readings_and_processing', 'ament_prefix_path')
+[1.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apptronik/dev_ws/install/readings_and_processing/share/readings_and_processing/hook/ament_prefix_path.ps1'
+[1.473s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apptronik/dev_ws/install/readings_and_processing/share/readings_and_processing/hook/ament_prefix_path.dsv'
+[1.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apptronik/dev_ws/install/readings_and_processing/share/readings_and_processing/hook/ament_prefix_path.sh'
+[1.477s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.477s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.106s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/apptronik/dev_ws/src/readings_and_processing'
+[2.107s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.107s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apptronik/dev_ws/build/primeberry_two' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apptronik/dev_ws/install/readings_and_processing:/opt/ros/humble /usr/bin/cmake --build /home/apptronik/dev_ws/build/primeberry_two -- -j2 -l2
+[2.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apptronik/dev_ws/build/primeberry_two': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apptronik/dev_ws/install/readings_and_processing:/opt/ros/humble /usr/bin/cmake --install /home/apptronik/dev_ws/build/primeberry_two
+[2.259s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(primeberry_two)
+[2.264s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry_two' for CMake module files
+[2.265s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry_two' for CMake config files
+[2.266s] Level 1:colcon.colcon_core.shell:create_environment_hook('primeberry_two', 'cmake_prefix_path')
+[2.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/hook/cmake_prefix_path.ps1'
+[2.270s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/hook/cmake_prefix_path.dsv'
+[2.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/hook/cmake_prefix_path.sh'
+[2.275s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry_two/bin'
+[2.276s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry_two/lib/pkgconfig/primeberry_two.pc'
+[2.276s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry_two/lib/python3.10/site-packages'
+[2.277s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry_two/bin'
+[2.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/package.ps1'
+[2.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apptronik/dev_ws/build/primeberry_two' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apptronik/dev_ws/install/readings_and_processing:/opt/ros/humble /usr/bin/cmake --install /home/apptronik/dev_ws/build/primeberry_two
+[2.280s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/package.dsv'
+[2.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/package.sh'
+[2.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/package.bash'
+[2.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/package.zsh'
+[2.288s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/apptronik/dev_ws/install/primeberry_two/share/colcon-core/packages/primeberry_two)
+[2.341s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(primeberry_two)
+[2.342s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry_two' for CMake module files
+[2.344s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry_two' for CMake config files
+[2.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('primeberry_two', 'cmake_prefix_path')
+[2.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/hook/cmake_prefix_path.ps1'
+[2.346s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/hook/cmake_prefix_path.dsv'
+[2.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/hook/cmake_prefix_path.sh'
+[2.350s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry_two/bin'
+[2.350s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry_two/lib/pkgconfig/primeberry_two.pc'
+[2.351s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry_two/lib/python3.10/site-packages'
+[2.353s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/primeberry_two/bin'
+[2.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/package.ps1'
+[2.356s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/package.dsv'
+[2.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/package.sh'
+[2.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/package.bash'
+[2.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/package.zsh'
+[2.363s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/apptronik/dev_ws/install/primeberry_two/share/colcon-core/packages/primeberry_two)
+[3.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/apptronik/dev_ws/src/readings_and_processing': PYTHONPATH=/home/apptronik/dev_ws/build/readings_and_processing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/apptronik/dev_ws/install/readings_and_processing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/readings_and_processing build --build-base /home/apptronik/dev_ws/build/readings_and_processing/build install --record /home/apptronik/dev_ws/build/readings_and_processing/install.log --single-version-externally-managed install_data
+[4.072s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/readings_and_processing' for CMake module files
+[4.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/apptronik/dev_ws/src/readings_and_processing' returned '0': PYTHONPATH=/home/apptronik/dev_ws/build/readings_and_processing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/apptronik/dev_ws/install/readings_and_processing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/readings_and_processing build --build-base /home/apptronik/dev_ws/build/readings_and_processing/build install --record /home/apptronik/dev_ws/build/readings_and_processing/install.log --single-version-externally-managed install_data
+[4.073s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/readings_and_processing' for CMake config files
+[4.075s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/readings_and_processing/lib'
+[4.076s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/readings_and_processing/bin'
+[4.077s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/readings_and_processing/lib/pkgconfig/readings_and_processing.pc'
+[4.078s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/readings_and_processing/lib/python3.10/site-packages'
+[4.078s] Level 1:colcon.colcon_core.shell:create_environment_hook('readings_and_processing', 'pythonpath')
+[4.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apptronik/dev_ws/install/readings_and_processing/share/readings_and_processing/hook/pythonpath.ps1'
+[4.081s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/apptronik/dev_ws/install/readings_and_processing/share/readings_and_processing/hook/pythonpath.dsv'
+[4.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/apptronik/dev_ws/install/readings_and_processing/share/readings_and_processing/hook/pythonpath.sh'
+[4.085s] Level 1:colcon.colcon_core.environment:checking '/home/apptronik/dev_ws/install/readings_and_processing/bin'
+[4.085s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(readings_and_processing)
+[4.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/apptronik/dev_ws/install/readings_and_processing/share/readings_and_processing/package.ps1'
+[4.088s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/apptronik/dev_ws/install/readings_and_processing/share/readings_and_processing/package.dsv'
+[4.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/apptronik/dev_ws/install/readings_and_processing/share/readings_and_processing/package.sh'
+[4.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/apptronik/dev_ws/install/readings_and_processing/share/readings_and_processing/package.bash'
+[4.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/apptronik/dev_ws/install/readings_and_processing/share/readings_and_processing/package.zsh'
+[4.095s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/apptronik/dev_ws/install/readings_and_processing/share/colcon-core/packages/readings_and_processing)
+[4.098s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.099s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.099s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.099s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.112s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.113s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.113s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.146s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.147s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/apptronik/dev_ws/install/local_setup.ps1'
+[4.149s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/apptronik/dev_ws/install/_local_setup_util_ps1.py'
+[4.151s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/apptronik/dev_ws/install/setup.ps1'
+[4.157s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/apptronik/dev_ws/install/local_setup.sh'
+[4.158s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/apptronik/dev_ws/install/_local_setup_util_sh.py'
+[4.160s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/apptronik/dev_ws/install/setup.sh'
+[4.162s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/apptronik/dev_ws/install/local_setup.bash'
+[4.164s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/apptronik/dev_ws/install/setup.bash'
+[4.167s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/apptronik/dev_ws/install/local_setup.zsh'
+[4.168s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/apptronik/dev_ws/install/setup.zsh'

@@ -1,0 +1,69 @@
+[0.063s] Invoking command in '/home/apptronik/dev_ws/build/primeberry_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/apptronik/dev_ws/src/primeberry_one -DCMAKE_INSTALL_PREFIX=/home/apptronik/dev_ws/install/primeberry_one
+[0.443s] -- The C compiler identification is GNU 11.4.0
+[0.656s] -- The CXX compiler identification is GNU 11.4.0
+[0.720s] -- Detecting C compiler ABI info
+[1.208s] -- Detecting C compiler ABI info - done
+[1.247s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.250s] -- Detecting C compile features
+[1.259s] -- Detecting C compile features - done
+[1.268s] -- Detecting CXX compiler ABI info
+[1.826s] -- Detecting CXX compiler ABI info - done
+[1.870s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.872s] -- Detecting CXX compile features
+[1.876s] -- Detecting CXX compile features - done
+[1.890s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.061s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.721s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[3.961s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.003s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.062s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.169s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.372s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.175s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[5.180s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.180s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.379s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.385s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.773s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.964s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.284s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.341s] -- Looking for pthread.h
+[6.829s] -- Looking for pthread.h - found
+[6.830s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.241s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.241s] -- Found Threads: TRUE  
+[10.490s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.100s] -- Added test 'flake8' to check Python code syntax and style conventions
+[11.105s] -- Added test 'lint_cmake' to check CMake code style
+[11.109s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[11.121s] -- Added test 'xmllint' to check XML markup files
+[11.136s] -- Configuring done
+[11.178s] -- Generating done
+[11.186s] -- Build files have been written to: /home/apptronik/dev_ws/build/primeberry_one
+[11.216s] Invoked command in '/home/apptronik/dev_ws/build/primeberry_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/apptronik/dev_ws/src/primeberry_one -DCMAKE_INSTALL_PREFIX=/home/apptronik/dev_ws/install/primeberry_one
+[11.217s] Invoking command in '/home/apptronik/dev_ws/build/primeberry_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/apptronik/dev_ws/build/primeberry_one -- -j2 -l2
+[11.344s] Invoked command in '/home/apptronik/dev_ws/build/primeberry_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/apptronik/dev_ws/build/primeberry_one -- -j2 -l2
+[11.470s] Invoking command in '/home/apptronik/dev_ws/build/primeberry_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/apptronik/dev_ws/build/primeberry_one
+[11.490s] -- Install configuration: ""
+[11.490s] -- Installing: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one//launch
+[11.492s] -- Installing: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one//launch/launch_sim.launch.py
+[11.498s] -- Installing: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one//launch/rsp.launch.py
+[11.501s] -- Installing: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one//description
+[11.502s] -- Installing: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one//description/primeberry_one.urdf.xacro
+[11.505s] -- Installing: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one//description/gazebo_control.xacro
+[11.508s] -- Installing: /home/apptronik/dev_ws/install/primeberry_one/share/ament_index/resource_index/package_run_dependencies/primeberry_one
+[11.514s] -- Installing: /home/apptronik/dev_ws/install/primeberry_one/share/ament_index/resource_index/parent_prefix_path/primeberry_one
+[11.517s] -- Installing: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/environment/ament_prefix_path.sh
+[11.520s] -- Installing: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/environment/ament_prefix_path.dsv
+[11.522s] -- Installing: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/environment/path.sh
+[11.525s] -- Installing: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/environment/path.dsv
+[11.530s] -- Installing: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/local_setup.bash
+[11.533s] -- Installing: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/local_setup.sh
+[11.535s] -- Installing: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/local_setup.zsh
+[11.537s] -- Installing: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/local_setup.dsv
+[11.539s] -- Installing: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/package.dsv
+[11.541s] -- Installing: /home/apptronik/dev_ws/install/primeberry_one/share/ament_index/resource_index/packages/primeberry_one
+[11.546s] -- Installing: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/cmake/primeberry_oneConfig.cmake
+[11.548s] -- Installing: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/cmake/primeberry_oneConfig-version.cmake
+[11.551s] -- Installing: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/package.xml
+[11.561s] Invoked command in '/home/apptronik/dev_ws/build/primeberry_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/apptronik/dev_ws/build/primeberry_one

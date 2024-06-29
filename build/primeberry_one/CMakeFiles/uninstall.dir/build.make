@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/prime/dev_ws/src/primeberry_one
+CMAKE_SOURCE_DIR = /home/apptronik/dev_ws/src/primeberry_one
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/prime/dev_ws/build/primeberry_one
+CMAKE_BINARY_DIR = /home/apptronik/dev_ws/build/primeberry_one
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/prime/dev_ws/build/primeberry_one && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/prime/dev_ws/src/primeberry_one /home/prime/dev_ws/src/primeberry_one /home/prime/dev_ws/build/primeberry_one /home/prime/dev_ws/build/primeberry_one /home/prime/dev_ws/build/primeberry_one/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/apptronik/dev_ws/build/primeberry_one && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/apptronik/dev_ws/src/primeberry_one /home/apptronik/dev_ws/src/primeberry_one /home/apptronik/dev_ws/build/primeberry_one /home/apptronik/dev_ws/build/primeberry_one /home/apptronik/dev_ws/build/primeberry_one/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

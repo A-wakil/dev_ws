@@ -1,6 +1,0 @@
-Invoking command in '/home/prime/dev_ws/build/primeberry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/prime/dev_ws/src/primeberry -DCMAKE_INSTALL_PREFIX=/home/prime/dev_ws/install/primeberry
-Invoked command in '/home/prime/dev_ws/build/primeberry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/prime/dev_ws/src/primeberry -DCMAKE_INSTALL_PREFIX=/home/prime/dev_ws/install/primeberry
-Invoking command in '/home/prime/dev_ws/build/primeberry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/prime/dev_ws/build/primeberry -- -j8 -l8
-Invoked command in '/home/prime/dev_ws/build/primeberry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/prime/dev_ws/build/primeberry -- -j8 -l8
-Invoking command in '/home/prime/dev_ws/build/primeberry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/prime/dev_ws/build/primeberry
-Invoked command in '/home/prime/dev_ws/build/primeberry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/prime/dev_ws/build/primeberry

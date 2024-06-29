@@ -1,0 +1,37 @@
+[4.914s] Invoking command in '/home/apptronik/dev_ws/src/readings_and_processing': PYTHONPATH=/home/apptronik/dev_ws/build/readings_and_processing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/apptronik/dev_ws/install/readings_and_processing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/readings_and_processing build --build-base /home/apptronik/dev_ws/build/readings_and_processing/build install --record /home/apptronik/dev_ws/build/readings_and_processing/install.log --single-version-externally-managed install_data
+[6.732s] running egg_info
+[6.741s] creating ../../build/readings_and_processing/readings_and_processing.egg-info
+[6.741s] writing ../../build/readings_and_processing/readings_and_processing.egg-info/PKG-INFO
+[6.741s] writing dependency_links to ../../build/readings_and_processing/readings_and_processing.egg-info/dependency_links.txt
+[6.745s] writing entry points to ../../build/readings_and_processing/readings_and_processing.egg-info/entry_points.txt
+[6.745s] writing requirements to ../../build/readings_and_processing/readings_and_processing.egg-info/requires.txt
+[6.747s] writing top-level names to ../../build/readings_and_processing/readings_and_processing.egg-info/top_level.txt
+[6.747s] writing manifest file '../../build/readings_and_processing/readings_and_processing.egg-info/SOURCES.txt'
+[6.758s] reading manifest file '../../build/readings_and_processing/readings_and_processing.egg-info/SOURCES.txt'
+[6.762s] writing manifest file '../../build/readings_and_processing/readings_and_processing.egg-info/SOURCES.txt'
+[6.763s] running build
+[6.765s] running build_py
+[6.766s] creating /home/apptronik/dev_ws/build/readings_and_processing/build
+[6.766s] creating /home/apptronik/dev_ws/build/readings_and_processing/build/lib
+[6.769s] creating /home/apptronik/dev_ws/build/readings_and_processing/build/lib/readings_and_processing
+[6.769s] copying readings_and_processing/teleop_twist_to_ackerman.py -> /home/apptronik/dev_ws/build/readings_and_processing/build/lib/readings_and_processing
+[6.771s] copying readings_and_processing/__init__.py -> /home/apptronik/dev_ws/build/readings_and_processing/build/lib/readings_and_processing
+[6.776s] running install
+[6.780s] running install_lib
+[6.786s] creating /home/apptronik/dev_ws/install/readings_and_processing/lib/python3.10/site-packages/readings_and_processing
+[6.786s] copying /home/apptronik/dev_ws/build/readings_and_processing/build/lib/readings_and_processing/teleop_twist_to_ackerman.py -> /home/apptronik/dev_ws/install/readings_and_processing/lib/python3.10/site-packages/readings_and_processing
+[6.789s] copying /home/apptronik/dev_ws/build/readings_and_processing/build/lib/readings_and_processing/__init__.py -> /home/apptronik/dev_ws/install/readings_and_processing/lib/python3.10/site-packages/readings_and_processing
+[6.795s] byte-compiling /home/apptronik/dev_ws/install/readings_and_processing/lib/python3.10/site-packages/readings_and_processing/teleop_twist_to_ackerman.py to teleop_twist_to_ackerman.cpython-310.pyc
+[6.799s] byte-compiling /home/apptronik/dev_ws/install/readings_and_processing/lib/python3.10/site-packages/readings_and_processing/__init__.py to __init__.cpython-310.pyc
+[6.799s] running install_data
+[6.803s] creating /home/apptronik/dev_ws/install/readings_and_processing/share/ament_index
+[6.803s] creating /home/apptronik/dev_ws/install/readings_and_processing/share/ament_index/resource_index
+[6.804s] creating /home/apptronik/dev_ws/install/readings_and_processing/share/ament_index/resource_index/packages
+[6.804s] copying resource/readings_and_processing -> /home/apptronik/dev_ws/install/readings_and_processing/share/ament_index/resource_index/packages
+[6.805s] copying package.xml -> /home/apptronik/dev_ws/install/readings_and_processing/share/readings_and_processing
+[6.806s] running install_egg_info
+[6.814s] Copying ../../build/readings_and_processing/readings_and_processing.egg-info to /home/apptronik/dev_ws/install/readings_and_processing/lib/python3.10/site-packages/readings_and_processing-0.0.0-py3.10.egg-info
+[6.824s] running install_scripts
+[6.964s] Installing teleop_twist_to_ackerman_node script to /home/apptronik/dev_ws/install/readings_and_processing/lib/readings_and_processing
+[6.966s] writing list of installed files to '/home/apptronik/dev_ws/build/readings_and_processing/install.log'
+[7.111s] Invoked command in '/home/apptronik/dev_ws/src/readings_and_processing' returned '0': PYTHONPATH=/home/apptronik/dev_ws/build/readings_and_processing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/apptronik/dev_ws/install/readings_and_processing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/readings_and_processing build --build-base /home/apptronik/dev_ws/build/readings_and_processing/build install --record /home/apptronik/dev_ws/build/readings_and_processing/install.log --single-version-externally-managed install_data

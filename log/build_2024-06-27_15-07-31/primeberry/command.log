@@ -1,0 +1,4 @@
+Invoking command in '/home/apptronik/dev_ws/build/primeberry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/apptronik/dev_ws/build/primeberry -- -j2 -l2
+Invoked command in '/home/apptronik/dev_ws/build/primeberry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/apptronik/dev_ws/build/primeberry -- -j2 -l2
+Invoking command in '/home/apptronik/dev_ws/build/primeberry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/apptronik/dev_ws/build/primeberry
+Invoked command in '/home/apptronik/dev_ws/build/primeberry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/apptronik/dev_ws/build/primeberry

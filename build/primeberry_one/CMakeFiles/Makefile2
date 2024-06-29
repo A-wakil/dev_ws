@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/prime/dev_ws/src/primeberry_one
+CMAKE_SOURCE_DIR = /home/apptronik/dev_ws/src/primeberry_one
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/prime/dev_ws/build/primeberry_one
+CMAKE_BINARY_DIR = /home/apptronik/dev_ws/build/primeberry_one
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -82,14 +82,14 @@ clean: CMakeFiles/primeberry_one_uninstall.dir/clean
 CMakeFiles/uninstall.dir/all: CMakeFiles/primeberry_one_uninstall.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/prime/dev_ws/build/primeberry_one/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/apptronik/dev_ws/build/primeberry_one/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/prime/dev_ws/build/primeberry_one/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/apptronik/dev_ws/build/primeberry_one/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/prime/dev_ws/build/primeberry_one/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/apptronik/dev_ws/build/primeberry_one/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -108,14 +108,14 @@ CMakeFiles/uninstall.dir/clean:
 CMakeFiles/primeberry_one_uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/primeberry_one_uninstall.dir/build.make CMakeFiles/primeberry_one_uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/primeberry_one_uninstall.dir/build.make CMakeFiles/primeberry_one_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/prime/dev_ws/build/primeberry_one/CMakeFiles --progress-num= "Built target primeberry_one_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/apptronik/dev_ws/build/primeberry_one/CMakeFiles --progress-num= "Built target primeberry_one_uninstall"
 .PHONY : CMakeFiles/primeberry_one_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/primeberry_one_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/prime/dev_ws/build/primeberry_one/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/apptronik/dev_ws/build/primeberry_one/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/primeberry_one_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/prime/dev_ws/build/primeberry_one/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/apptronik/dev_ws/build/primeberry_one/CMakeFiles 0
 .PHONY : CMakeFiles/primeberry_one_uninstall.dir/rule
 
 # Convenience name for target.

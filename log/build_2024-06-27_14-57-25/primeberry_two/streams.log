@@ -1,0 +1,32 @@
+[0.037s] Invoking command in '/home/apptronik/dev_ws/build/primeberry_two': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/apptronik/dev_ws/build/primeberry_two -- -j2 -l2
+[0.490s] Invoked command in '/home/apptronik/dev_ws/build/primeberry_two' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/apptronik/dev_ws/build/primeberry_two -- -j2 -l2
+[0.593s] Invoking command in '/home/apptronik/dev_ws/build/primeberry_two': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/apptronik/dev_ws/build/primeberry_two
+[0.608s] -- Install configuration: ""
+[0.609s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//launch
+[0.609s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//launch/ackermann_vehicle_hokuyo_imu.launch
+[0.610s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//launch/ackermann_vehicle_hokuyo.launch
+[0.611s] -- Installing: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//launch/launch_sim.launch.py
+[0.611s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//launch/ackermann_vehicle_rviz.launch
+[0.612s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//launch/rsp.launch.py
+[0.616s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//launch/ackermann_vehicle.launch
+[0.617s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//launch/rviz.launch
+[0.618s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//description
+[0.620s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//description/em_3905.urdf.xacro
+[0.622s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//description/em_3905_hokuyo_imu.urdf.xacro
+[0.624s] -- Installing: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//description/em_3905_hokuyo.urdf.xacro
+[0.626s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/ament_index/resource_index/package_run_dependencies/primeberry_two
+[0.628s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/ament_index/resource_index/parent_prefix_path/primeberry_two
+[0.631s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/environment/ament_prefix_path.sh
+[0.632s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/environment/ament_prefix_path.dsv
+[0.635s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/environment/path.sh
+[0.635s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/environment/path.dsv
+[0.636s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/local_setup.bash
+[0.637s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/local_setup.sh
+[0.638s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/local_setup.zsh
+[0.639s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/local_setup.dsv
+[0.641s] -- Installing: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/package.dsv
+[0.641s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/ament_index/resource_index/packages/primeberry_two
+[0.643s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/cmake/primeberry_twoConfig.cmake
+[0.644s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/cmake/primeberry_twoConfig-version.cmake
+[0.646s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/package.xml
+[0.647s] Invoked command in '/home/apptronik/dev_ws/build/primeberry_two' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/apptronik/dev_ws/build/primeberry_two

@@ -1,18 +1,1 @@
-<?xml version="1.0"?>
-<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="primeberry">
-  <xacro:include filename="materials.xacro"/>
-  <xacro:include filename="base_link.xacro"/>
-  <xacro:include filename="wheels.xacro"/>
-  <xacro:include filename="steering_mechanism.xacro"/>
-  <xacro:include filename="gazebo_control.xacro"/>
-
-  <xacro:property name="pi" value="3.14159265359"/>
-
-  <link name="world"/>
-  
-  <joint name="base_joint" type="fixed">
-    <origin xyz="1.5 1.0 0.0" rpy="0.0 0.0 0.0"/>
-    <parent link="world"/>
-    <child link="base_link"/>
-  </joint>
-</robot>
+/home/apptronik/dev_ws/src/primeberry/description/primeberry.urdf.xacro

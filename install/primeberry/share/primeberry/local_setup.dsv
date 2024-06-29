@@ -1,2 +1,1 @@
-source;share/primeberry/environment/ament_prefix_path.sh
-source;share/primeberry/environment/path.sh
+/home/apptronik/dev_ws/build/primeberry/ament_cmake_environment_hooks/local_setup.dsv

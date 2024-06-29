@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/readings_and_processing/readings_and_processing.egg-info
+writing ../../build/readings_and_processing/readings_and_processing.egg-info/PKG-INFO
+writing dependency_links to ../../build/readings_and_processing/readings_and_processing.egg-info/dependency_links.txt
+writing entry points to ../../build/readings_and_processing/readings_and_processing.egg-info/entry_points.txt
+writing requirements to ../../build/readings_and_processing/readings_and_processing.egg-info/requires.txt
+writing top-level names to ../../build/readings_and_processing/readings_and_processing.egg-info/top_level.txt
+writing manifest file '../../build/readings_and_processing/readings_and_processing.egg-info/SOURCES.txt'
+reading manifest file '../../build/readings_and_processing/readings_and_processing.egg-info/SOURCES.txt'
+writing manifest file '../../build/readings_and_processing/readings_and_processing.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/apptronik/dev_ws/build/readings_and_processing/build
+creating /home/apptronik/dev_ws/build/readings_and_processing/build/lib
+creating /home/apptronik/dev_ws/build/readings_and_processing/build/lib/readings_and_processing
+copying readings_and_processing/teleop_twist_to_ackerman.py -> /home/apptronik/dev_ws/build/readings_and_processing/build/lib/readings_and_processing
+copying readings_and_processing/__init__.py -> /home/apptronik/dev_ws/build/readings_and_processing/build/lib/readings_and_processing
+running install
+running install_lib
+creating /home/apptronik/dev_ws/install/readings_and_processing/lib/python3.10/site-packages/readings_and_processing
+copying /home/apptronik/dev_ws/build/readings_and_processing/build/lib/readings_and_processing/teleop_twist_to_ackerman.py -> /home/apptronik/dev_ws/install/readings_and_processing/lib/python3.10/site-packages/readings_and_processing
+copying /home/apptronik/dev_ws/build/readings_and_processing/build/lib/readings_and_processing/__init__.py -> /home/apptronik/dev_ws/install/readings_and_processing/lib/python3.10/site-packages/readings_and_processing
+byte-compiling /home/apptronik/dev_ws/install/readings_and_processing/lib/python3.10/site-packages/readings_and_processing/teleop_twist_to_ackerman.py to teleop_twist_to_ackerman.cpython-310.pyc
+byte-compiling /home/apptronik/dev_ws/install/readings_and_processing/lib/python3.10/site-packages/readings_and_processing/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/apptronik/dev_ws/install/readings_and_processing/share/ament_index
+creating /home/apptronik/dev_ws/install/readings_and_processing/share/ament_index/resource_index
+creating /home/apptronik/dev_ws/install/readings_and_processing/share/ament_index/resource_index/packages
+copying resource/readings_and_processing -> /home/apptronik/dev_ws/install/readings_and_processing/share/ament_index/resource_index/packages
+copying package.xml -> /home/apptronik/dev_ws/install/readings_and_processing/share/readings_and_processing
+running install_egg_info
+Copying ../../build/readings_and_processing/readings_and_processing.egg-info to /home/apptronik/dev_ws/install/readings_and_processing/lib/python3.10/site-packages/readings_and_processing-0.0.0-py3.10.egg-info
+running install_scripts
+Installing teleop_twist_to_ackerman_node script to /home/apptronik/dev_ws/install/readings_and_processing/lib/readings_and_processing
+writing list of installed files to '/home/apptronik/dev_ws/build/readings_and_processing/install.log'

@@ -1,1 +1,1 @@
-prepend-non-duplicate-if-exists;PATH;bin
+/home/apptronik/dev_ws/build/primeberry/ament_cmake_environment_hooks/path.dsv

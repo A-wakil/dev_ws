@@ -1,0 +1,4 @@
+[console_scripts]
+make_circle_node = readings_and_processing.make_circle:main
+teleop_twist_to_ackerman_node = readings_and_processing.teleop_twist_to_ackerman:main
+

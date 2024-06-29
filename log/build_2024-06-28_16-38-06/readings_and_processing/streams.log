@@ -1,0 +1,22 @@
+[0.855s] Invoking command in '/home/apptronik/dev_ws/src/readings_and_processing': PYTHONPATH=/home/apptronik/dev_ws/build/readings_and_processing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/apptronik/dev_ws/install/readings_and_processing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/readings_and_processing build --build-base /home/apptronik/dev_ws/build/readings_and_processing/build install --record /home/apptronik/dev_ws/build/readings_and_processing/install.log --single-version-externally-managed install_data
+[1.230s] running egg_info
+[1.231s] writing ../../build/readings_and_processing/readings_and_processing.egg-info/PKG-INFO
+[1.231s] writing dependency_links to ../../build/readings_and_processing/readings_and_processing.egg-info/dependency_links.txt
+[1.231s] writing entry points to ../../build/readings_and_processing/readings_and_processing.egg-info/entry_points.txt
+[1.232s] writing requirements to ../../build/readings_and_processing/readings_and_processing.egg-info/requires.txt
+[1.232s] writing top-level names to ../../build/readings_and_processing/readings_and_processing.egg-info/top_level.txt
+[1.234s] reading manifest file '../../build/readings_and_processing/readings_and_processing.egg-info/SOURCES.txt'
+[1.235s] writing manifest file '../../build/readings_and_processing/readings_and_processing.egg-info/SOURCES.txt'
+[1.235s] running build
+[1.235s] running build_py
+[1.236s] running install
+[1.236s] running install_lib
+[1.238s] running install_data
+[1.238s] running install_egg_info
+[1.240s] removing '/home/apptronik/dev_ws/install/readings_and_processing/lib/python3.10/site-packages/readings_and_processing-0.0.0-py3.10.egg-info' (and everything under it)
+[1.257s] Copying ../../build/readings_and_processing/readings_and_processing.egg-info to /home/apptronik/dev_ws/install/readings_and_processing/lib/python3.10/site-packages/readings_and_processing-0.0.0-py3.10.egg-info
+[1.257s] running install_scripts
+[1.281s] Installing make_circle_node script to /home/apptronik/dev_ws/install/readings_and_processing/lib/readings_and_processing
+[1.282s] Installing teleop_twist_to_ackerman_node script to /home/apptronik/dev_ws/install/readings_and_processing/lib/readings_and_processing
+[1.282s] writing list of installed files to '/home/apptronik/dev_ws/build/readings_and_processing/install.log'
+[1.334s] Invoked command in '/home/apptronik/dev_ws/src/readings_and_processing' returned '0': PYTHONPATH=/home/apptronik/dev_ws/build/readings_and_processing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/apptronik/dev_ws/install/readings_and_processing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/readings_and_processing build --build-base /home/apptronik/dev_ws/build/readings_and_processing/build install --record /home/apptronik/dev_ws/build/readings_and_processing/install.log --single-version-externally-managed install_data

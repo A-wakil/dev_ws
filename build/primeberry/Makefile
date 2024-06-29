@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/prime/dev_ws/src/primeberry
+CMAKE_SOURCE_DIR = /home/apptronik/dev_ws/src/primeberry
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/prime/dev_ws/build/primeberry
+CMAKE_BINARY_DIR = /home/apptronik/dev_ws/build/primeberry
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/prime/dev_ws/build/primeberry/CMakeFiles /home/prime/dev_ws/build/primeberry//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/apptronik/dev_ws/build/primeberry/CMakeFiles /home/apptronik/dev_ws/build/primeberry//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/prime/dev_ws/build/primeberry/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/apptronik/dev_ws/build/primeberry/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

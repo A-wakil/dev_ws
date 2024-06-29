@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/prime/dev_ws/src/primeberry_one
+CMAKE_SOURCE_DIR = /home/apptronik/dev_ws/src/primeberry_one
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/prime/dev_ws/build/primeberry_one
+CMAKE_BINARY_DIR = /home/apptronik/dev_ws/build/primeberry_one
 
 # Utility rule file for primeberry_one_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/primeberry_one_uninstall.dir/compiler_depend.make
 include CMakeFiles/primeberry_one_uninstall.dir/progress.make
 
 CMakeFiles/primeberry_one_uninstall:
-	/usr/bin/cmake -P /home/prime/dev_ws/build/primeberry_one/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/apptronik/dev_ws/build/primeberry_one/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 primeberry_one_uninstall: CMakeFiles/primeberry_one_uninstall
 primeberry_one_uninstall: CMakeFiles/primeberry_one_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/primeberry_one_uninstall.dir/clean:
 .PHONY : CMakeFiles/primeberry_one_uninstall.dir/clean
 
 CMakeFiles/primeberry_one_uninstall.dir/depend:
-	cd /home/prime/dev_ws/build/primeberry_one && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/prime/dev_ws/src/primeberry_one /home/prime/dev_ws/src/primeberry_one /home/prime/dev_ws/build/primeberry_one /home/prime/dev_ws/build/primeberry_one /home/prime/dev_ws/build/primeberry_one/CMakeFiles/primeberry_one_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/apptronik/dev_ws/build/primeberry_one && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/apptronik/dev_ws/src/primeberry_one /home/apptronik/dev_ws/src/primeberry_one /home/apptronik/dev_ws/build/primeberry_one /home/apptronik/dev_ws/build/primeberry_one /home/apptronik/dev_ws/build/primeberry_one/CMakeFiles/primeberry_one_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/primeberry_one_uninstall.dir/depend
 

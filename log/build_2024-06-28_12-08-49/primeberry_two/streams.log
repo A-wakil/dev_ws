@@ -1,0 +1,34 @@
+[0.053s] Invoking command in '/home/apptronik/dev_ws/build/primeberry_two': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apptronik/dev_ws/install/readings_and_processing:/opt/ros/humble /usr/bin/cmake --build /home/apptronik/dev_ws/build/primeberry_two -- -j2 -l2
+[0.654s] Invoked command in '/home/apptronik/dev_ws/build/primeberry_two' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apptronik/dev_ws/install/readings_and_processing:/opt/ros/humble /usr/bin/cmake --build /home/apptronik/dev_ws/build/primeberry_two -- -j2 -l2
+[0.781s] Invoking command in '/home/apptronik/dev_ws/build/primeberry_two': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apptronik/dev_ws/install/readings_and_processing:/opt/ros/humble /usr/bin/cmake --install /home/apptronik/dev_ws/build/primeberry_two
+[0.804s] -- Install configuration: ""
+[0.805s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//launch
+[0.809s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//launch/ackermann_vehicle_hokuyo_imu.launch
+[0.810s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//launch/ackermann_vehicle_hokuyo.launch
+[0.812s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//launch/launch_sim.launch.py
+[0.814s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//launch/ackermann_vehicle_rviz.launch
+[0.815s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//launch/rsp.launch.py
+[0.817s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//launch/ackermann_vehicle.launch
+[0.817s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//launch/rviz.launch
+[0.818s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//description
+[0.820s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//description/ursa.urdf.xacro
+[0.821s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//description/materials.xacro
+[0.823s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//description/em_3905.urdf.xacro
+[0.826s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//description/em_3905_hokuyo_imu.urdf.xacro
+[0.828s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//description/em_3905_hokuyo.urdf.xacro
+[0.830s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/ament_index/resource_index/package_run_dependencies/primeberry_two
+[0.831s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/ament_index/resource_index/parent_prefix_path/primeberry_two
+[0.832s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/environment/ament_prefix_path.sh
+[0.833s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/environment/ament_prefix_path.dsv
+[0.834s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/environment/path.sh
+[0.835s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/environment/path.dsv
+[0.836s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/local_setup.bash
+[0.837s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/local_setup.sh
+[0.841s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/local_setup.zsh
+[0.843s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/local_setup.dsv
+[0.846s] -- Installing: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/package.dsv
+[0.847s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/ament_index/resource_index/packages/primeberry_two
+[0.849s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/cmake/primeberry_twoConfig.cmake
+[0.850s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/cmake/primeberry_twoConfig-version.cmake
+[0.851s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/package.xml
+[0.866s] Invoked command in '/home/apptronik/dev_ws/build/primeberry_two' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apptronik/dev_ws/install/readings_and_processing:/opt/ros/humble /usr/bin/cmake --install /home/apptronik/dev_ws/build/primeberry_two

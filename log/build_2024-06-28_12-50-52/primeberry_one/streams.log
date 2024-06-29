@@ -1,0 +1,26 @@
+[0.026s] Invoking command in '/home/apptronik/dev_ws/build/primeberry_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apptronik/dev_ws/install/readings_and_processing:/opt/ros/humble /usr/bin/cmake --build /home/apptronik/dev_ws/build/primeberry_one -- -j2 -l2
+[0.083s] Invoked command in '/home/apptronik/dev_ws/build/primeberry_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apptronik/dev_ws/install/readings_and_processing:/opt/ros/humble /usr/bin/cmake --build /home/apptronik/dev_ws/build/primeberry_one -- -j2 -l2
+[0.127s] Invoking command in '/home/apptronik/dev_ws/build/primeberry_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apptronik/dev_ws/install/readings_and_processing:/opt/ros/humble /usr/bin/cmake --install /home/apptronik/dev_ws/build/primeberry_one
+[0.153s] -- Install configuration: ""
+[0.153s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one//launch
+[0.153s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one//launch/launch_sim.launch.py
+[0.154s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one//launch/rsp.launch.py
+[0.154s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one//description
+[0.154s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one//description/primeberry_one.urdf.xacro
+[0.154s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one//description/gazebo_control.xacro
+[0.154s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_one/share/ament_index/resource_index/package_run_dependencies/primeberry_one
+[0.154s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_one/share/ament_index/resource_index/parent_prefix_path/primeberry_one
+[0.154s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/environment/ament_prefix_path.sh
+[0.154s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/environment/ament_prefix_path.dsv
+[0.154s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/environment/path.sh
+[0.154s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/environment/path.dsv
+[0.154s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/local_setup.bash
+[0.155s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/local_setup.sh
+[0.155s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/local_setup.zsh
+[0.155s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/local_setup.dsv
+[0.155s] -- Installing: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/package.dsv
+[0.155s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_one/share/ament_index/resource_index/packages/primeberry_one
+[0.155s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/cmake/primeberry_oneConfig.cmake
+[0.155s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/cmake/primeberry_oneConfig-version.cmake
+[0.155s] -- Up-to-date: /home/apptronik/dev_ws/install/primeberry_one/share/primeberry_one/package.xml
+[0.168s] Invoked command in '/home/apptronik/dev_ws/build/primeberry_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/apptronik/dev_ws/install/readings_and_processing:/opt/ros/humble /usr/bin/cmake --install /home/apptronik/dev_ws/build/primeberry_one
