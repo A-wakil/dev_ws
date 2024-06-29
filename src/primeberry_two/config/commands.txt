@@ -1,0 +1,5 @@
+ros2 launch primeberry_two launch_sim_small.launch.py  world:=./src/primeberry_two/worlds/obstacles.world
+
+ros2 launch rplidar_ros rplidar_a1_launch.py
+
+ ros2 launch slam_toolbox online_async_launch.py params_file:=./src/primeberry_two/config/mapper_params_online_async.yaml use_sim_time:=true

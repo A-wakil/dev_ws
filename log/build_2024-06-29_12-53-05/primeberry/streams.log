@@ -1,0 +1,52 @@
+[0.022s] Invoking command in '/home/apptronik/dev_ws/build/primeberry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/apptronik/dev_ws/src/primeberry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/apptronik/dev_ws/install/primeberry
+[0.127s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.322s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.364s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[0.416s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.422s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.435s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.456s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.482s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.664s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.667s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.759s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.763s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.947s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.823s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.938s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.939s] -- Added test 'lint_cmake' to check CMake code style
+[1.941s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.943s] -- Added test 'xmllint' to check XML markup files
+[1.947s] -- Configuring done
+[1.974s] -- Generating done
+[1.975s] -- Build files have been written to: /home/apptronik/dev_ws/build/primeberry
+[1.994s] Invoked command in '/home/apptronik/dev_ws/build/primeberry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/apptronik/dev_ws/src/primeberry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/apptronik/dev_ws/install/primeberry
+[1.994s] Invoking command in '/home/apptronik/dev_ws/build/primeberry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/apptronik/dev_ws/build/primeberry -- -j2 -l2
+[2.049s] Invoked command in '/home/apptronik/dev_ws/build/primeberry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/apptronik/dev_ws/build/primeberry -- -j2 -l2
+[2.089s] Invoking command in '/home/apptronik/dev_ws/build/primeberry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/apptronik/dev_ws/build/primeberry
+[2.100s] -- Install configuration: ""
+[2.103s] -- Execute custom install script
+[2.107s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry//launch/launch_sim.launch.py
+[2.109s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry//launch/rsp.launch.py
+[2.110s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry//description/base_link.xacro
+[2.110s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry//description/gazebo_control.xacro
+[2.112s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry//description/materials.xacro
+[2.112s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry//description/primeberry.urdf.xacro
+[2.113s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry//description/steering_mechanism.xacro
+[2.113s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry//description/wheels.xacro
+[2.114s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/ament_index/resource_index/package_run_dependencies/primeberry
+[2.115s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/ament_index/resource_index/parent_prefix_path/primeberry
+[2.115s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry/environment/ament_prefix_path.sh
+[2.117s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry/environment/ament_prefix_path.dsv
+[2.118s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry/environment/path.sh
+[2.119s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry/environment/path.dsv
+[2.120s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry/local_setup.bash
+[2.121s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry/local_setup.sh
+[2.122s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry/local_setup.zsh
+[2.123s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry/local_setup.dsv
+[2.124s] -- Symlinking: /home/apptronik/dev_ws/install/primeberry/share/primeberry/package.dsv
+[2.139s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/ament_index/resource_index/packages/primeberry
+[2.140s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry/cmake/primeberryConfig.cmake
+[2.143s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry/cmake/primeberryConfig-version.cmake
+[2.144s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry/package.xml
+[2.193s] Invoked command in '/home/apptronik/dev_ws/build/primeberry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/apptronik/dev_ws/build/primeberry

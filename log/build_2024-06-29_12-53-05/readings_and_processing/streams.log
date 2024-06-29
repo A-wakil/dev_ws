@@ -1,0 +1,22 @@
+[0.891s] Invoking command in '/home/apptronik/dev_ws/build/readings_and_processing': PYTHONPATH=/home/apptronik/dev_ws/build/readings_and_processing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/apptronik/dev_ws/install/readings_and_processing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/apptronik/dev_ws/build/readings_and_processing/build --no-deps symlink_data --force
+[1.247s] running develop
+[1.249s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.250s]   warnings.warn(
+[1.484s] running egg_info
+[1.485s] writing readings_and_processing.egg-info/PKG-INFO
+[1.486s] writing dependency_links to readings_and_processing.egg-info/dependency_links.txt
+[1.488s] writing entry points to readings_and_processing.egg-info/entry_points.txt
+[1.489s] writing requirements to readings_and_processing.egg-info/requires.txt
+[1.490s] writing top-level names to readings_and_processing.egg-info/top_level.txt
+[1.494s] reading manifest file 'readings_and_processing.egg-info/SOURCES.txt'
+[1.496s] writing manifest file 'readings_and_processing.egg-info/SOURCES.txt'
+[1.498s] running build_ext
+[1.499s] Creating /home/apptronik/dev_ws/install/readings_and_processing/lib/python3.10/site-packages/readings-and-processing.egg-link (link to .)
+[1.501s] Installing make_circle_node script to /home/apptronik/dev_ws/install/readings_and_processing/lib/readings_and_processing
+[1.503s] Installing teleop_twist_to_ackerman_node script to /home/apptronik/dev_ws/install/readings_and_processing/lib/readings_and_processing
+[1.504s] 
+[1.505s] Installed /home/apptronik/dev_ws/build/readings_and_processing
+[1.506s] running symlink_data
+[1.507s] symbolically linking /home/apptronik/dev_ws/build/readings_and_processing/resource/readings_and_processing -> /home/apptronik/dev_ws/install/readings_and_processing/share/ament_index/resource_index/packages
+[1.508s] symbolically linking /home/apptronik/dev_ws/build/readings_and_processing/package.xml -> /home/apptronik/dev_ws/install/readings_and_processing/share/readings_and_processing
+[1.546s] Invoked command in '/home/apptronik/dev_ws/build/readings_and_processing' returned '0': PYTHONPATH=/home/apptronik/dev_ws/build/readings_and_processing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/apptronik/dev_ws/install/readings_and_processing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/apptronik/dev_ws/build/readings_and_processing/build --no-deps symlink_data --force
