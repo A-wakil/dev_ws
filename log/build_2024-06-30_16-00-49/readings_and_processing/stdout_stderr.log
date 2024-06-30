@@ -1,0 +1,18 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing readings_and_processing.egg-info/PKG-INFO
+writing dependency_links to readings_and_processing.egg-info/dependency_links.txt
+writing entry points to readings_and_processing.egg-info/entry_points.txt
+writing requirements to readings_and_processing.egg-info/requires.txt
+writing top-level names to readings_and_processing.egg-info/top_level.txt
+reading manifest file 'readings_and_processing.egg-info/SOURCES.txt'
+writing manifest file 'readings_and_processing.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/apptronik/dev_ws/install/readings_and_processing/lib/python3.10/site-packages/readings-and-processing.egg-link (link to .)
+Installing make_circle_node script to /home/apptronik/dev_ws/install/readings_and_processing/lib/readings_and_processing
+Installing teleop_twist_to_ackerman_node script to /home/apptronik/dev_ws/install/readings_and_processing/lib/readings_and_processing
+
+Installed /home/apptronik/dev_ws/build/readings_and_processing
+running symlink_data

@@ -46,7 +46,7 @@ limitations under the License.
        along the y axis, and chassis_height along the z axis. -->
   <xacro:property name="chassis_length" value="0.258"/>
   <xacro:property name="chassis_width" value="0.168"/>
-  <xacro:property name="chassis_height" value="0.05"/>
+  <xacro:property name="chassis_height" value="0.1"/>
   <xacro:property name="chassis_mass" value="2.788"/>
 
   <!-- battery_dist is the distance between the inner edges of the
@@ -71,7 +71,7 @@ limitations under the License.
   <xacro:property name="tire_dia" value="0.14605"/>
   <xacro:property name="tire_width" value="0.0689"/>
   <xacro:property name="hex_hub_depth" value="0.01445"/>
-  <xacro:property name="wheel_mass" value="0.29"/>
+  <xacro:property name="wheel_mass" value="0.59"/>
 
   <!-- hex_hub_dist is the distance between left and right hex hubs when
        the shock absorbers are fully extended. axle_length is the distance
@@ -422,7 +422,7 @@ limitations under the License.
     <plugin name="gazebo_ros_ackermann_drive" filename="libgazebo_ros_ackermann_drive.so">
       <ros>
         <namespace>/</namespace>
-        <remapping>cmd_vel:=cmd_vel</remapping>
+        <remapping>cmd_vel:=cmd_vel_nav</remapping>
         <remapping>odom:=odom</remapping>
         <remapping>distance:=distance</remapping>
       </ros>

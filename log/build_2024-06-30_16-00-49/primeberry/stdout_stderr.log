@@ -1,0 +1,25 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry//launch/launch_sim.launch.py
+-- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry//launch/rsp.launch.py
+-- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry//description/base_link.xacro
+-- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry//description/gazebo_control.xacro
+-- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry//description/materials.xacro
+-- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry//description/primeberry.urdf.xacro
+-- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry//description/steering_mechanism.xacro
+-- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry//description/wheels.xacro
+-- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/ament_index/resource_index/package_run_dependencies/primeberry
+-- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/ament_index/resource_index/parent_prefix_path/primeberry
+-- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry/environment/path.sh
+-- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry/environment/path.dsv
+-- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry/local_setup.bash
+-- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry/local_setup.sh
+-- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry/local_setup.zsh
+-- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry/local_setup.dsv
+-- Symlinking: /home/apptronik/dev_ws/install/primeberry/share/primeberry/package.dsv
+-- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/ament_index/resource_index/packages/primeberry
+-- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry/cmake/primeberryConfig.cmake
+-- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry/cmake/primeberryConfig-version.cmake
+-- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry/share/primeberry/package.xml

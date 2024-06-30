@@ -10,6 +10,9 @@ ros2 launch rplidar_ros rplidar_a1_launch.py
 #Install nav2 for ros humble:
 sudo apt install ros-humble-navigation2 ros-humble-nav2-bringup
 
+#Install Twist Mux:
+sudo apt install ros-humble-twist-mux
+
 #Running map_server(takes the map we saved and makes it available on the map topic, hehehe):
 
 ros2 run nav2_map_server map_server --ros-args -p yaml_filename:=/home/dev_ws/my_map_save.yaml -p use_sim_time:=true

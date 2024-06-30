@@ -1,0 +1,36 @@
+[0.048s] Invoking command in '/home/apptronik/dev_ws/build/primeberry_two': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/apptronik/dev_ws/build/primeberry_two -- -j2 -l2
+[0.996s] Invoked command in '/home/apptronik/dev_ws/build/primeberry_two' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/apptronik/dev_ws/build/primeberry_two -- -j2 -l2
+[1.175s] Invoking command in '/home/apptronik/dev_ws/build/primeberry_two': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/apptronik/dev_ws/build/primeberry_two
+[1.276s] -- Install configuration: ""
+[1.284s] -- Execute custom install script
+[1.299s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//launch/ackermann_vehicle.launch
+[1.303s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//launch/ackermann_vehicle_hokuyo.launch
+[1.305s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//launch/ackermann_vehicle_hokuyo_imu.launch
+[1.310s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//launch/ackermann_vehicle_rviz.launch
+[1.312s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//launch/launch_sim.launch.py
+[1.313s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//launch/launch_sim_small.launch.py
+[1.314s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//launch/rsp.launch.py
+[1.316s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//launch/rsp_small.launch.py
+[1.327s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//launch/rviz.launch
+[1.332s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//description/em_3905.urdf.xacro
+[1.335s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//description/em_3905_hokuyo.urdf.xacro
+[1.338s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//description/em_3905_hokuyo_imu.urdf.xacro
+[1.339s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//description/lidar.xacro
+[1.344s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//description/materials.xacro
+[1.346s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two//description/ursa.urdf.xacro
+[1.354s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry_two/share/ament_index/resource_index/package_run_dependencies/primeberry_two
+[1.369s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry_two/share/ament_index/resource_index/parent_prefix_path/primeberry_two
+[1.371s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/environment/ament_prefix_path.sh
+[1.374s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/environment/ament_prefix_path.dsv
+[1.376s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/environment/path.sh
+[1.378s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/environment/path.dsv
+[1.380s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/local_setup.bash
+[1.394s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/local_setup.sh
+[1.396s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/local_setup.zsh
+[1.398s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/local_setup.dsv
+[1.399s] -- Symlinking: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/package.dsv
+[1.461s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry_two/share/ament_index/resource_index/packages/primeberry_two
+[1.462s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/cmake/primeberry_twoConfig.cmake
+[1.463s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/cmake/primeberry_twoConfig-version.cmake
+[1.466s] -- Up-to-date symlink: /home/apptronik/dev_ws/install/primeberry_two/share/primeberry_two/package.xml
+[1.473s] Invoked command in '/home/apptronik/dev_ws/build/primeberry_two' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/apptronik/dev_ws/build/primeberry_two
